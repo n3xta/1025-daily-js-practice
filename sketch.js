@@ -95,7 +95,7 @@ function mask(){
   // 右边(quad B)
   
   let by1 = 150;
-  let by2 = height - by1;
+  let by2 = height - by1 * persP;
   let bx1 = width/4;
   quad(
     bx1, by1,
